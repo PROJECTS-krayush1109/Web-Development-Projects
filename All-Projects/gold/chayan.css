@@ -1,0 +1,35 @@
+.ch1 img{
+   width: 99vw;
+}
+.dbody1{
+    margin-top: 10px;
+    align-items: center;
+}
+
+.ctext1{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cbody1{
+    
+    
+    margin-top: 30px;
+    text-align: center;
+  
+}
+
+.ctext2{
+    font-size: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cbody2{
+    
+   
+    margin-top: 30px;
+    text-align: center;
+}

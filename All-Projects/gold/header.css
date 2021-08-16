@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.prajal{
+    background-color:rgb(255, 255, 255);
+    
+}
+.header{
+    display:relative;
+}
+
+.h-up {
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem;
+
+}
+
+.h-up-left button , .h-up-right button, .h-down-btn button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-weight:500;
+    letter-spacing: 0.5px;
+    word-spacing: 0;
+    margin-left: 0.8rem;
+    cursor: pointer;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.h-up-left{
+    margin-left: 2rem;
+}
+
+.h-up-right{
+    position: absolute;
+    right: 3rem;
+}
+
+.h-down .logo{
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+}
+
+.h-down{
+    display: flex;
+}
+
+.h-down-btn{
+    margin-top:1.5rem;
+    margin-left: 3rem;
+}
+
+.h-down-btn button{
+    margin-left: 1rem;
+    letter-spacing: 2px;
+}
+
+.h-down-icon{
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+
+.h-down-icon i{
+    font-size: 25px;
+    margin-left: 1.8rem;
+    cursor: pointer;
+}
+
+.photo{
+    margin-top: 1.5rem;
+}
+
+.photo img{
+    width: 100vw;
+    height:70vh
+}

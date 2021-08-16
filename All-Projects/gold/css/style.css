@@ -1,0 +1,51 @@
+/* ---------------css for arpit code starts ----------------- */
+#by-arpit{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* check below tag if causing any error then contact me i will change */
+div > h1 , div > h3{
+    text-align: center;
+}
+.slider-images , .gender-cate , .traditional-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.slider-images a img {
+    height: 440px;  
+    width: 350px;   
+}
+.gender-cate a img{
+    height: 180px;
+    width: 230px;
+}
+.gender h3{
+    text-align: center;
+}
+.glow{
+    background: rgb(36,223,121);
+    background: linear-gradient(90deg, rgba(36,223,121,1) 35%, rgba(0,212,255,1) 100%);
+    transition: all ease-out 0.4s;
+}
+.glow:hover {
+    transform: scale(1.01);
+    color: white;
+    cursor: pointer;
+}
+.products a img:hover  , .gender:hover{
+    padding: 5px;
+    margin: 0;
+    border: .5px solid;
+    border-radius: 14px;
+    transition: all ease-in-out 0.4s;
+    transform: scale(1.03);
+}
+.products a{
+    text-decoration: none;
+    color: black;
+    text-overflow: ellipsis;
+}
+.products a h3{
+    text-align: center;
+}
+/* ----------------css for arpit code ends----------- */

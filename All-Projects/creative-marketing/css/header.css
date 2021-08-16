@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow:ital,wght@0,400;1,600&display=swap');
+.prajal{
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.8px;
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Barlow Condensed', sans-serif; */
+    margin-bottom: 3rem;
+}
+
+.prajal .middle_sec{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.prajal .middle_sec .logo{
+    margin: 0.5rem 1.5rem 2rem;
+}
+
+.prajal .middle_sec .logo img{
+    width: 85%
+}
+
+.prajal .upper_sec hr{
+    background-color: rgb(46, 170, 122);
+    height: .2rem;
+}
+
+.prajal .hr_above input{
+    width:18rem;
+}
+
+.prajal .hr_above i{
+    margin-left:1rem ;
+}
+
+.prajal i, .prajal button{
+    cursor: pointer;
+}
+
+.prajal .hr_below ul{
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.prajal .hr_below ul li{
+    list-style: none;
+    margin-right: 1.6rem;
+}
+
+.prajal .hr_below ul li a{
+    color: rgb(77, 33, 7);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.prajal .hr_below ul li a:hover{
+    background-color: aqua;
+}
+
+.prajal .hr{
+    margin:1.1rem 1.5rem 0 0;
+    width: 40rem;
+    height: 0.3rem;
+    background-color: rgb(77, 33, 7);
+    color: rgb(77, 33, 7);
+}
+
+.prajal .p-login_btn{
+    position: absolute;
+    right: 2rem;
+}
+
+.p-login_btn span{
+    font-size: 1.5rem;
+    color: rgb(168, 168, 168);
+}
+
+.btn_style{
+    border:none;
+    background: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgb(24, 121, 88);
+    margin: 0 0.3rem;
+    cursor: pointer;
+    padding: 2px;
+    outline:none;
+}
+
+.prajal .p-login_btn .btn_style:hover{
+    border-bottom: 2px solid aqua;
+}
+
+.p-login_btn .btn_style span{
+    color:black;
+}
+
+.prajal .search{
+    border:none;
+    outline: none;
+}
+
+.prajal .border{
+    background-color:aliceblue;
+    color: white;
+}
+.below_header{
+    background-color: rgb(252, 252, 252);
+    height:fit-content;
+    display: flex;
+    margin: 5rem 0rem 0rem 8rem;
+}
+
+.below_header .left{
+    width: 40%;
+    /* background-color: aqua; */
+}
+
+.below_header .left h1{
+    font-size: 2.5rem;
+    margin-right: 2rem;
+}
+
+.below_header .left p{
+    margin-top: 0.8rem;
+    font-size: 1.4rem;
+    word-spacing: 2px;
+    font-weight: 600;
+    color: rgb(90, 90, 90);
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-right: 6rem;
+}
+
+.below_header .left h6{
+    font-style:bold;
+    margin-top: 1rem;
+}
+
+.prajal .below_header .left .trending_btn button{
+    background-color: rgb(243, 202, 125);
+    border: none;
+    border-radius: 3rem;
+    padding: 0.3rem 0.7rem;
+    font-family:cursive;
+    margin-top: 1rem;
+}
+
+.prajal .below_header .left .trending_btn button:hover{
+    color: rgb(119, 82, 14);
+}
+
+.below_header .right img{
+    position:absolute;
+    right: 2rem;
+    width: 50%;
+}
